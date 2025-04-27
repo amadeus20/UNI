@@ -32,8 +32,7 @@ delete ptr_dinamico;
 ptr_dinamico = nullptr;
 // 13. Arreglo de enteros y apuntadores a su inicio
 int arreglo[3] = {10, 20, 30};
-int* parreglo = arreglo; // No se usa & porque el nombre del arreglo ya
-representa su dirección
+int* parreglo = arreglo; // No se usa & porque el nombre del arreglo ya representa su dirección
 // 14. Recorrer el arreglo usando el apuntador
 cout << "Recorriendo arreglo con apuntadores:" << endl;
 for (int i = 0; i < 3; i++) {
