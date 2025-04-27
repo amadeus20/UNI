@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "P3",
+      "request": "launch",
+      "mainClass": "P3",
+      "projectName": "Programación Orientada a Objetos_e3119ae1"
+    },
+    {
+      "type": "java",
+      "name": "P2",
+      "request": "launch",
+      "mainClass": "P2",
+      "projectName": "Programación Orientada a Objetos_e3119ae1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Programación Orientada a Objetos_e3119ae1"
+    },
+    {
+      "name": "C/C++: gcc.exe Compilar y depurar el archivo activo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "c:/Users/dante/Desktop/Programación Orientada a Objetos/build/Debug/outDebug",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "C:/msys64/ucrt64/bin",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Habilitar la impresión con sangría para gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Establecer tipo de desensamblado en Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe compilar archivo activo"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/dante/Desktop/Programación Orientada a Objetos",
+      "program": "c:/Users/dante/Desktop/Programación Orientada a Objetos/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
